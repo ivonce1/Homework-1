@@ -7,7 +7,6 @@ import pandas as pd
 from datetime import datetime, timedelta
 import time
 
-pd.set_option('display.max_columns', None)
 
 def fetch_issuers_names(base_url, url_history):
     response = requests.get(base_url)
